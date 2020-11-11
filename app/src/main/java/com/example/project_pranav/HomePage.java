@@ -45,8 +45,7 @@ public class HomePage extends AppCompatActivity implements PopupMenu.OnMenuItemC
             case R.id.item4:
                 Toast.makeText(this,"item 1 clicked",Toast.LENGTH_SHORT).show();
                 return true;
-            default:
-                return false;
+
 
         }
     }
